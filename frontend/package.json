@@ -1,0 +1,31 @@
+{
+  "name": "dark-reign-tower-defence-frontend",
+  "version": "0.1.0",
+  "description": "Web-based tower defence game inspired by Dark Reign",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development"
+  },
+  "keywords": [
+    "game",
+    "tower-defence",
+    "rts",
+    "phaser"
+  ],
+  "author": "lawns2747-ui",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.22.0",
+    "@babel/preset-env": "^7.22.0",
+    "babel-loader": "^9.1.2",
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "phaser": "^3.55.2",
+    "axios": "^1.4.0"
+  }
+}
